@@ -1,0 +1,22 @@
+# Bun
+Using bun version 1.1.7
+```
+cd test-bun
+bun install
+bun run index.ts
+```
+
+![alt text](image.png)
+
+# Node
+Using v23.1.0
+```
+cd test-node
+npm install
+node --experimental-strip-types index.ts
+```
+
+
+## Errors
+bun error is not caught
+![alt text](image-1.png)
