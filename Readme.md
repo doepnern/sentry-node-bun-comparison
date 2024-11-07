@@ -6,7 +6,6 @@ bun install
 bun run index.ts
 ```
 
-![alt text](image.png)
 
 # Node
 Using v23.1.0
@@ -20,3 +19,11 @@ node --experimental-strip-types index.ts
 ## Errors
 bun error is not caught
 ![alt text](image-1.png)
+
+## Traces
+
+### Spans are created for fetch in node
+![alt text](image.png)
+
+### No spans are created for fetch in Bun
+![alt text](image-2.png)
