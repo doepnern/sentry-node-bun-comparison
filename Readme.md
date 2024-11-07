@@ -1,6 +1,7 @@
 # Bun
 Using bun version 1.1.7
 ```
+# update dsn in instrumentation.ts
 cd test-bun
 bun install
 bun run index.ts
@@ -10,6 +11,7 @@ bun run index.ts
 # Node
 Using v23.1.0
 ```
+# update dsn in instrumentation.ts
 cd test-node
 npm install
 node --experimental-strip-types index.ts
